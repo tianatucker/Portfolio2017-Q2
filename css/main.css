@@ -197,6 +197,26 @@ ul {
   -o-background-size: cover;
 }
 
+.words {
+  text-align: center;
+  margin-top: 50%;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: none;
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.portfolio-preview-border:hover .words {
+  display: block;
+}
+
 /*About Section*/
 
 .about {
@@ -301,7 +321,7 @@ footer {
   transition-duration: 0.3s;
 }
 .hvr-sweep-to-right:before {
-  content: "View Case Study";
+  content: "";
     font:    2em Avenir,sans-serif;
     color:   #5D5D5D;
     text-align: center;
