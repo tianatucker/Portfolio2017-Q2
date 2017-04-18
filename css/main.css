@@ -187,7 +187,7 @@ ul {
 }
 
 .morninge {
-  background: url(img/mockup_me_homepage_Angled_ComingSoon.png) no-repeat;
+  background: url(img/mockup_me_homepage_Angled_ComingSoon2.png) no-repeat;
   background-position-y: top;
   background-position: 80% 12%;
   height: 36rem;
@@ -220,7 +220,7 @@ ul {
 /*About Section*/
 
 .about {
-	padding-top: 5%;
+	padding-top: 3%;
 	padding-bottom: 5%;
 	background: #5D5D5D;
 }
@@ -297,7 +297,7 @@ footer {
 }
 
 #email > a:hover {
-	color: #F5C000;
+	color: #1769FF;
 	text-decoration: none;
 }
 
